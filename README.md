@@ -13,16 +13,17 @@
 	1. expand AR Session Origin > AR Camera
 	2. go to Inspector tab change Tag to Main Camera
 8. go to hierarchy bar, right click there & select XR > AR Session
-9. go to hierarchy bar, right click there & select 3D Object > Cube
+9. go to hierarchy, remove main Camera under SampleScene
+10. go to hierarchy bar, right click there & select 3D Object > Cube
 	1. click on Cube, go to inspector tab
 	2. in Transform > Change Position to X: 0, Y: 0, Z: 1
 	3. in Transform > Change Scale to X: 0.2, Y: 0.2, Z: 0.2
 	4. change the rotation a little bit of the cube
-10. enable usb debugging in android phone & use android phone which supports ARCore
-11. Then in unity go to File > Build Settings > Android > Run Device > Refresh > Select your Physical Device
-12. Then in unity  go to File > Build Settings > Player Settings > XR Plug-in Management > Enable ARCore
-13. Then Build and run and check your android phone to preview the app
-14. if any error occurs while building the app, check this video to resolve it https://youtu.be/c6Zbqm5Fys8
+11. enable usb debugging in android phone & use android phone which supports ARCore
+12. Then in unity go to File > Build Settings > Android > Run Device > Refresh > Select your Physical Device
+13. Then in unity  go to File > Build Settings > Player Settings > XR Plug-in Management > Enable ARCore
+14. Then Click on Add Open Scenes, then click on Build and run and check your android phone to preview the app
+15. if any error occurs while building the app, check this video to resolve it https://youtu.be/c6Zbqm5Fys8
 
 <hr>
 
